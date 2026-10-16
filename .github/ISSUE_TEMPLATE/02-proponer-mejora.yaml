@@ -1,0 +1,18 @@
+name: Proponer una mejora
+description: Una idea para el juego, el curso o las pistas
+labels: [mejora]
+
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Tu idea
+      description: Qué te gustaría que hiciera MiCrucigramaAccesible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Para qué te serviría
+      description: Por ejemplo, para jugar con un niño, con baja visión o con línea braille.

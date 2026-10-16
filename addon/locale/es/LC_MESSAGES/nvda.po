@@ -1,0 +1,968 @@
+# Spanish translation of MiCrucigramaAccesible.
+# Copyright (C) 2026 Wilmer Rodríguez Vega
+# This file is distributed under the same license as the miCrucigramaAccesible package.
+# Wilmer Rodríguez Vega <contacto@wilmer-rv.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: miCrucigramaAccesible 0.1.0\n"
+"Report-Msgid-Bugs-To: contacto@wilmer-rv.com\n"
+"PO-Revision-Date: 2026-10-09 15:00-0600\n"
+"Last-Translator: Wilmer Rodríguez Vega <contacto@wilmer-rv.com>\n"
+"Language-Team: Español\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Translators: name of the add-on, used as the submenu label and the input gestures category.
+#. Translators: title of the add-on panel in NVDA's settings.
+#. Translators: category of the add-on commands in the Input gestures dialog.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+msgid "MiCrucigramaAccesible"
+msgstr "MiCrucigramaAccesible"
+
+#. Translators: item of the add-on submenu that starts a new crossword.
+#. Translators: item of the menu of the crossword board.
+msgid "&New crossword..."
+msgstr "&Nuevo crucigrama..."
+
+#. Translators: help text of the "New crossword" menu item.
+msgid "Choose a crossword and start it"
+msgstr "Elegir un crucigrama y empezarlo"
+
+#. Translators: item of the add-on submenu that opens the crossword of the day.
+msgid "Crossword of the &day"
+msgstr "Crucigrama del &día"
+
+#. Translators: help text of the "Crossword of the day" menu item.
+msgid "A new crossword every day, the same for everyone"
+msgstr "Un crucigrama nuevo cada día, el mismo para todo el mundo"
+
+#. Translators: item of the add-on submenu that opens the crossword course.
+msgid "&Learn to play..."
+msgstr "&Aprender a jugar..."
+
+#. Translators: help text of the "Learn to play" menu item.
+msgid "Guided lessons to learn how to solve crosswords"
+msgstr "Lecciones guiadas para aprender a resolver crucigramas"
+
+#. Translators: item of the add-on submenu that shows the statistics.
+msgid "My &statistics..."
+msgstr "Mis &estadísticas..."
+
+#. Translators: help text of the "My statistics" menu item.
+msgid "Crosswords solved, best times and days in a row"
+msgstr "Crucigramas resueltos, mejores tiempos y días seguidos"
+
+#. Translators: item of the add-on submenu that shows all the keyboard shortcuts.
+msgid "&Keyboard shortcuts..."
+msgstr "&Atajos de teclado..."
+
+#. Translators: help text of the "Keyboard shortcuts" menu item.
+msgid "The keys of the board"
+msgstr "Las teclas del tablero"
+
+#. Translators: item of the add-on submenu that opens the crossword in progress.
+msgid "&Continue the crossword"
+msgstr "&Continuar el crucigrama"
+
+#. Translators: help text of the "Continue the crossword" menu item.
+msgid "Open the crossword you left unfinished"
+msgstr "Abrir el crucigrama que dejaste sin terminar"
+
+#. Translators: label of the add-on submenu inside NVDA's Tools menu.
+msgid "Mi&CrucigramaAccesible"
+msgstr "Mi&CrucigramaAccesible"
+
+#. Translators: help text of the add-on submenu.
+msgid "Accessible crosswords"
+msgstr "Crucigramas accesibles"
+
+#. Translators: reported when asking for a crossword while another one is being prepared.
+msgid "A crossword is already being prepared."
+msgstr "Ya se está preparando un crucigrama."
+
+#. Translators: asked when starting a new crossword while another one is unfinished.
+msgid "You have an unfinished crossword. If you start a new one, it will be lost. Start a new crossword?"
+msgstr "Tienes un crucigrama sin terminar. Si empiezas otro, se perderá. ¿Empezar un crucigrama nuevo?"
+
+#. Translators: title of the confirmation to start a new crossword.
+#. Translators: title of the dialog to start a new crossword.
+msgid "New crossword"
+msgstr "Nuevo crucigrama"
+
+#. Translators: said while a new crossword is generated.
+msgid "Preparing the crossword..."
+msgstr "Preparando el crucigrama..."
+
+#. Translators: reported when a crossword could not be generated.
+msgid "The crossword could not be prepared. Please try again."
+msgstr "No se pudo preparar el crucigrama. Inténtalo de nuevo."
+
+#. Translators: reported when the saved crossword cannot be opened.
+msgid "The unfinished crossword could not be opened. You can start a new one."
+msgstr "No se pudo abrir el crucigrama sin terminar. Puedes empezar uno nuevo."
+
+#. Translators: title of the message about the saved crossword.
+msgid "Continue the crossword"
+msgstr "Continuar el crucigrama"
+
+#. Translators: said after solving a crossword faster than ever in that size and difficulty.
+msgid "It is your best time in this kind of crossword!"
+msgstr "¡Es tu mejor tiempo en este tipo de crucigrama!"
+
+#. Translators: description of the command that opens the crossword course, shown in the Input gestures dialog.
+msgid "Opens the crossword course Learn to play"
+msgstr "Abre el curso de crucigramas Aprender a jugar"
+
+#. Translators: said when opening the crossword of the day after solving it, as in "You already solved today's crossword. You have solved it 3 days in a row. Come back tomorrow for a new one."
+msgid "You already solved today's crossword. {streak} Come back tomorrow for a new one."
+msgstr "Ya resolviste el crucigrama de hoy. {streak} Vuelve mañana para uno nuevo."
+
+#. Translators: title of the message about the crossword of the day.
+#. Translators: heading of the statistics.
+#. Translators: added before the description in the title of the crossword of the day.
+msgid "Crossword of the day"
+msgstr "Crucigrama del día"
+
+#. Translators: asked before starting the crossword of the day.
+msgid "How do you want to play today's crossword?"
+msgstr "¿Cómo quieres jugar el crucigrama de hoy?"
+
+#. Translators: button to play the crossword of the day with help.
+msgid "&With help"
+msgstr "&Con ayudas"
+
+#. Translators: button to play the crossword of the day without help.
+msgid "With&out help"
+msgstr "&Sin ayudas"
+
+#. Translators: said while the crossword of the day is generated.
+msgid "Preparing the crossword of the day..."
+msgstr "Preparando el crucigrama del día..."
+
+#. Translators: description of the command that opens the crossword board, shown in the Input gestures dialog.
+msgid "Opens the crossword board: continues the unfinished crossword or starts a new one"
+msgstr "Abre el tablero del crucigrama: continúa el crucigrama sin terminar o empieza uno nuevo"
+
+#. Translators: description of the command that opens the crossword of the day, shown in the Input gestures dialog.
+msgid "Opens the crossword of the day"
+msgstr "Abre el crucigrama del día"
+
+#. Translators: description of the command that shows the statistics, shown in the Input gestures dialog.
+msgid "Shows your crossword statistics"
+msgstr "Muestra tus estadísticas de crucigramas"
+
+#. Translators: joins the last item of a list, as in "3 across, 4 across and 5 down".
+msgid "{items} and {last}"
+msgstr "{items} y {last}"
+
+#. Translators: a crossword word by its number, for example "2 across".
+msgid "{number} across"
+msgstr "{number} horizontal"
+
+#. Translators: a crossword word by its number, for example "5 down".
+msgid "{number} down"
+msgstr "{number} vertical"
+
+#. Translators: length of a crossword word, as in "2 across, 4 letters: clue".
+#. Translators: the length of a crossword word, for example "5 letters".
+msgid "{count} letter"
+msgid_plural "{count} letters"
+msgstr[0] "{count} letra"
+msgstr[1] "{count} letras"
+
+#. Translators: a crossword word with its clue, for example "2 across, 4 letters: Says quack".
+msgid "{word}, {letters}: {clue}"
+msgstr "{word}, {letters}: {clue}"
+
+#. Translators: what a word already has written, said after its clue, as in "Written: duck".
+msgid "Written: {letters}"
+msgstr "Escrito: {letters}"
+
+#. Translators: an empty cell when reading a word as written, as in "du, gap, k".
+msgid "gap"
+msgstr "hueco"
+
+#. Translators: said when reading a word that has no letters written.
+msgid "nothing written"
+msgstr "nada escrito"
+
+#. Translators: a crossword cell without a letter written yet.
+msgid "empty"
+msgstr "vacía"
+
+#. Translators: a cell of the current word, as in "C, letter 3 of 5" or "empty, letter 3 of 5".
+msgid "{content}, letter {position} of {length}"
+msgstr "{content}, letra {position} de {length}"
+
+#. Translators: added when the cell is shared with another word, as in "crosses 1 down, letter 2".
+msgid "crosses {word}, letter {position}"
+msgstr "cruza con {word}, letra {position}"
+
+#. Translators: the other word at a crossing, as in "1 down, letter 2. 1 down, 4 letters: clue".
+msgid "Letter {position} of {word}"
+msgstr "Letra {position} de {word}"
+
+#. Translators: the position of a cell on the board, as in "Row 3, column 5".
+msgid "Row {row}, column {column}"
+msgstr "Fila {row}, columna {column}"
+
+#. Translators: how many words are full, as in "5 of 12 words complete".
+msgid "{done} of {total} word complete"
+msgid_plural "{done} of {total} words complete"
+msgstr[0] "{done} de {total} palabra completa"
+msgstr[1] "{done} de {total} palabras completas"
+
+#. Translators: the words that still have empty cells, as in "Missing: 2 across, 4 down".
+msgid "Missing: {words}"
+msgstr "Faltan: {words}"
+
+#. Translators: said when the last empty cell of a word is filled (it does not say if it is right).
+msgid "{word} complete"
+msgstr "{word} completa"
+
+#. Translators: said when every cell is filled but some letter is wrong, in a crossword without help.
+msgid "The crossword is full, but there are wrong letters"
+msgstr "El crucigrama está lleno, pero hay letras incorrectas"
+
+#. Translators: said when every cell is filled but some letter is wrong, as in "... wrong letters in 3 across".
+msgid "The crossword is full, but there are wrong letters in {words}"
+msgstr "El crucigrama está lleno, pero hay letras incorrectas en {words}"
+
+#. Translators: said when deleting in a cell that has no letter.
+msgid "nothing to delete"
+msgstr "nada que borrar"
+
+#. Translators: said after deleting a letter, as in "C deleted".
+msgid "{letter} deleted"
+msgstr "{letter} borrada"
+
+#. Translators: result of Check in a crossword without help, as in "2 wrong letters".
+msgid "{count} wrong letter"
+msgid_plural "{count} wrong letters"
+msgstr[0] "{count} letra incorrecta"
+msgstr[1] "{count} letras incorrectas"
+
+#. Translators: result of Check, as in "2 wrong letters, in 3 across and 5 down".
+msgid "{count} wrong letter, in {words}"
+msgid_plural "{count} wrong letters, in {words}"
+msgstr[0] "{count} letra incorrecta, en {words}"
+msgstr[1] "{count} letras incorrectas, en {words}"
+
+#. Translators: result of Check when every written letter is right.
+msgid "All the letters you wrote are right"
+msgstr "Todas las letras que escribiste están bien"
+
+#. Translators: added to the result of Check, as in "7 empty cells left".
+msgid "{count} empty cell left"
+msgid_plural "{count} empty cells left"
+msgstr[0] "Falta {count} casilla"
+msgstr[1] "Faltan {count} casillas"
+
+#. Translators: help for a cell whose letter is already right, as in "The R of this cell is already right."
+msgid "The {letter} of this cell is already right."
+msgstr "La {letter} de esta casilla ya está bien."
+
+#. Translators: help that tells the letter of the cell without writing it, as in "Help: here goes R".
+msgid "Help: here goes {letter}"
+msgstr "Ayuda: aquí va la {letter}"
+
+#. Translators: help that tells the whole word, as in "Help: 3 across is duck: D, U, C, K".
+msgid "Help: {word} is {answer}: {letters}"
+msgstr "Ayuda: {word} es {answer}: {letters}"
+
+#. Translators: part of a duration.
+msgid "{count} hour"
+msgid_plural "{count} hours"
+msgstr[0] "{count} hora"
+msgstr[1] "{count} horas"
+
+#. Translators: part of a duration.
+msgid "{count} minute"
+msgid_plural "{count} minutes"
+msgstr[0] "{count} minuto"
+msgstr[1] "{count} minutos"
+
+#. Translators: part of a duration.
+msgid "{count} second"
+msgid_plural "{count} seconds"
+msgstr[0] "{count} segundo"
+msgstr[1] "{count} segundos"
+
+#. Translators: days in a row solving the crossword of the day.
+msgid "You have solved it {count} day in a row."
+msgid_plural "You have solved it {count} days in a row."
+msgstr[0] "Lo has resuelto {count} día seguido."
+msgstr[1] "Lo has resuelto {count} días seguidos."
+
+#. Translators: the children's crosswords in the statistics.
+msgid "Children's"
+msgstr "Infantiles"
+
+#. Translators: a type of crossword in the statistics, as in "Medium, Normal".
+msgid "{size}, {difficulty}"
+msgstr "{size}, {difficulty}"
+
+#. Translators: a line of the statistics, as in "Medium, Normal: 5 solved, 2 without help. Best time: 20 minutes."
+msgid "{type}: {count} solved, {without} without help. Best time: {time}."
+msgid_plural "{type}: {count} solved, {without} without help. Best time: {time}."
+msgstr[0] "{type}: {count} resuelto, {without} sin ayudas. Mejor tiempo: {time}."
+msgstr[1] "{type}: {count} resueltos, {without} sin ayudas. Mejor tiempo: {time}."
+
+#. Translators: a line of the statistics: help used in the solved crosswords.
+msgid "Help used: {count} time."
+msgid_plural "Help used: {count} times."
+msgstr[0] "Ayudas usadas: {count} vez."
+msgstr[1] "Ayudas usadas: {count} veces."
+
+#. Translators: statistics when no crossword has been solved yet.
+msgid "You have not solved any crossword yet."
+msgstr "Todavía no has resuelto ningún crucigrama."
+
+#. Translators: a line of the statistics about the crossword of the day.
+msgid "Days in a row: {count}."
+msgstr "Días seguidos: {count}."
+
+#. Translators: a line of the statistics about the crossword of the day.
+msgid "Record: {count} day in a row."
+msgid_plural "Record: {count} days in a row."
+msgstr[0] "Récord: {count} día seguido."
+msgstr[1] "Récord: {count} días seguidos."
+
+#. Translators: a line of the statistics about the crossword of the day.
+msgid "Solved in total: {count}."
+msgstr "Resueltos en total: {count}."
+
+#. Translators: a line of the statistics about the crossword of the day.
+msgid "Today's crossword is already solved."
+msgstr "El crucigrama de hoy ya está resuelto."
+
+#. Translators: heading of the statistics.
+msgid "Crosswords solved"
+msgstr "Crucigramas resueltos"
+
+#. Translators: a line of the statistics about the course.
+msgid "Lessons finished: {done} of {total}."
+msgstr "Lecciones terminadas: {done} de {total}."
+
+#. Translators: a line of the statistics about the course.
+msgid "Stars: {stars} of {total}."
+msgstr "Estrellas: {stars} de {total}."
+
+#. Translators: heading of the statistics.
+#. Translators: title of the list of lessons of the course.
+msgid "Learn to play"
+msgstr "Aprender a jugar"
+
+#. Translators: a crossword size: about 6 words.
+msgid "Small"
+msgstr "Pequeño"
+
+#. Translators: a crossword size: about 12 words.
+msgid "Medium"
+msgstr "Mediano"
+
+#. Translators: a crossword size: about 20 words.
+msgid "Large"
+msgstr "Grande"
+
+#. Translators: a crossword difficulty level.
+msgid "Easy"
+msgstr "Fácil"
+
+#. Translators: a crossword difficulty level.
+msgid "Normal"
+msgstr "Normal"
+
+#. Translators: a crossword difficulty level.
+msgid "Hard"
+msgstr "Difícil"
+
+#. Translators: a theme of the children's crosswords.
+msgid "Animals"
+msgstr "Animales"
+
+#. Translators: a theme of the children's crosswords.
+msgid "Food"
+msgstr "Comida"
+
+#. Translators: a theme of the children's crosswords.
+msgid "Colours"
+msgstr "Colores"
+
+#. Translators: a theme of the children's crosswords.
+msgid "The body"
+msgstr "El cuerpo"
+
+#. Translators: a theme of the children's crosswords.
+msgid "The house"
+msgstr "La casa"
+
+#. Translators: a theme of the children's crosswords.
+msgid "School"
+msgstr "La escuela"
+
+#. Translators: describes a children's crossword, for example "Children's: Animals, 6 words".
+msgid "Children's: {theme}, {count} word"
+msgid_plural "Children's: {theme}, {count} words"
+msgstr[0] "Infantil: {theme}, {count} palabra"
+msgstr[1] "Infantil: {theme}, {count} palabras"
+
+#. Translators: describes a crossword, for example "Medium, Normal, 12 words".
+msgid "{size}, {difficulty}, {count} word"
+msgid_plural "{size}, {difficulty}, {count} words"
+msgstr[0] "{size}, {difficulty}, {count} palabra"
+msgstr[1] "{size}, {difficulty}, {count} palabras"
+
+#. Translators: heading of the across clues (the words that are read from left to right).
+msgid "Across"
+msgstr "Horizontales"
+
+#. Translators: heading of the down clues (the words that are read from top to bottom).
+msgid "Down"
+msgstr "Verticales"
+
+#. Translators: a clue in the preview, for example "3. Colour of the sky (4 letters; row 2, column 5)".
+msgid "{number}. {clue} ({letters}; row {row}, column {column})"
+msgstr "{number}. {clue} ({letters}; fila {row}, columna {column})"
+
+#. Translators: size of the board in the crossword preview.
+msgid "{rows} rows and {columns} columns."
+msgstr "{rows} filas y {columns} columnas."
+
+#. Translators: explains the board of the preview, where each letter is a cell.
+msgid "Each letter is a cell; a dot is a cell without a letter."
+msgstr "Cada letra es una casilla; el punto es una casilla sin letra."
+
+#. Translators: a row of the board in the preview, for example "Row 1: . . C A S A".
+msgid "Row {row}: {cells}"
+msgstr "Fila {row}: {cells}"
+
+#. Translators: heading of the board in the crossword preview.
+msgid "Board"
+msgstr "Tablero"
+
+#. Translators: heading of the solutions at the end of the crossword preview.
+msgid "Solutions"
+msgstr "Soluciones"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Very good!"
+msgstr "¡Muy bien!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Excellent!"
+msgstr "¡Excelente!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "You did it!"
+msgstr "¡Lo lograste!"
+
+#. Translators: praise when an exercise of the course is done.
+msgid "Well done!"
+msgstr "¡Bien hecho!"
+
+#. Translators: stars earned in an exercise of the course.
+msgid "You earned {count} star."
+msgid_plural "You earned {count} stars."
+msgstr[0] "Ganaste {count} estrella."
+msgstr[1] "Ganaste {count} estrellas."
+
+#. Translators: said when trying to change the board of an exercise that is already done.
+msgid "This exercise is already done."
+msgstr "Este ejercicio ya está hecho."
+
+#. Translators: said when typing something that is not a letter on the board.
+msgid "Only letters can be written."
+msgstr "Solo se pueden escribir letras."
+
+#. Translators: said in a lesson when a letter does not go in the cell, followed by the clue, as in "The B does not go here. Clue: Says quack."
+msgid "The {letter} does not go here. Clue: {clue}"
+msgstr "La {letter} no va aquí. Pista: {clue}"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Moving around the board"
+msgstr "Moverse por el tablero"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Follow the words cell by cell; a bump sound means there is no letter that way"
+msgstr "Seguir las palabras casilla a casilla; el sonido de choque indica que por ahí no hay letra"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "First or last letter of the word"
+msgstr "Primera o última letra de la palabra"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Next or previous word"
+msgstr "Palabra siguiente o anterior"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "List of all the clues, to go to a word"
+msgstr "Lista de todas las pistas, para ir a una palabra"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Writing"
+msgstr "Escribir"
+
+#. Translators: the keys that write on the board, in the list of keyboard shortcuts.
+msgid "Letters"
+msgstr "Letras"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Write the letter and move on along the word; accents do not count, Ñ does"
+msgstr "Escribir la letra y avanzar por la palabra; las tildes no cuentan, la Ñ sí"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Delete the letter of the cell or, if it is empty, the one before"
+msgstr "Borrar la letra de la casilla o, si está vacía, la anterior"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Delete the letter of the cell"
+msgstr "Borrar la letra de la casilla"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Undo the last change"
+msgstr "Deshacer el último cambio"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Listening"
+msgstr "Escuchar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Repeat the clue of the word"
+msgstr "Repetir la pista de la palabra"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "At a crossing, the clue of the other word"
+msgstr "En un cruce, la pista de la otra palabra"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Letters of the word, with the empty cells"
+msgstr "Letras de la palabra, con las casillas vacías"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "The word as it is written, with the gaps"
+msgstr "La palabra tal como está escrita, con los huecos"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Read the current cell again"
+msgstr "Volver a leer la casilla actual"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "How many words are complete and which are missing"
+msgstr "Cuántas palabras están completas y cuáles faltan"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Row and column of the cell"
+msgstr "Fila y columna de la casilla"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Help"
+msgstr "Ayuda"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "The letter that goes in the cell; you write it"
+msgstr "La letra que va en la casilla; la escribes tú"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "The whole word, spelled; you write it"
+msgstr "La palabra entera, deletreada; la escribes tú"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Menu and window"
+msgstr "Menú y ventana"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Board menu: check, restart, new crossword, keyboard shortcuts and close"
+msgstr "Menú del tablero: comprobar, reiniciar, nuevo crucigrama, atajos de teclado y cerrar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "This list of keyboard shortcuts"
+msgstr "Esta lista de atajos de teclado"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Close the board; the crossword is kept"
+msgstr "Cerrar el tablero; el crucigrama se guarda"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Close the board"
+msgstr "Cerrar el tablero"
+
+#. Translators: heading in the list of keyboard shortcuts.
+msgid "Lessons"
+msgstr "Lecciones"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Repeat the instruction of the exercise"
+msgstr "Repetir lo que hay que hacer en el ejercicio"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Repeat the explanation of the lesson"
+msgstr "Repetir la explicación de la lección"
+
+#. Translators: description in the list of keyboard shortcuts, in lessons.
+msgid "In the lessons a letter that does not fit is not written, and Control+Z does nothing"
+msgstr "En las lecciones una letra que no va no se escribe, y Control+Z no hace nada"
+
+#. Translators: heading in the list of keyboard shortcuts: commands that work from anywhere.
+msgid "From anywhere"
+msgstr "Desde cualquier lugar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open the board: continue the unfinished crossword or start a new one"
+msgstr "Abrir el tablero: continuar el crucigrama sin terminar o empezar uno nuevo"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open the crossword of the day"
+msgstr "Abrir el crucigrama del día"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Open Learn to play"
+msgstr "Abrir Aprender a jugar"
+
+#. Translators: description in the list of keyboard shortcuts.
+msgid "Show My statistics"
+msgstr "Mostrar Mis estadísticas"
+
+#. Translators: shown in the list of keyboard shortcuts when a command has no key.
+msgid "no key assigned"
+msgstr "sin tecla asignada"
+
+#. Translators: introduction of the list of keyboard shortcuts.
+msgid "You can change these keys in the NVDA menu, Preferences, Input gestures, category MiCrucigramaAccesible (with the focus on the board for the board keys)."
+msgstr "Puedes cambiar estas teclas en el menú de NVDA, Preferencias, Gestos de entrada, categoría MiCrucigramaAccesible (con el foco en el tablero para las teclas del tablero)."
+
+#. Translators: title of the window with the list of keyboard shortcuts.
+msgid "Keyboard shortcuts"
+msgstr "Atajos de teclado"
+
+#. Translators: state of a completed lesson in the list of lessons.
+msgid "Completed, {stars} of {total} stars."
+msgstr "Completada, {stars} de {total} estrellas."
+
+#. Translators: state of a lesson started but not finished, in the list of lessons.
+msgid "In progress: {done} of {total} exercises."
+msgstr "Empezada: {done} de {total} ejercicios."
+
+#. Translators: state of a lesson not started, in the list of lessons.
+msgid "Pending."
+msgstr "Pendiente."
+
+#. Translators: block heading before the first lesson of a block, as in "Block A, Getting to know the crossword."
+msgid "Block {block}, {title}."
+msgstr "Bloque {block}, {title}."
+
+#. Translators: label of the list of lessons.
+msgid "&Lessons:"
+msgstr "&Lecciones:"
+
+#. Translators: button that starts the selected lesson.
+#. Translators: button that starts the exercises of a lesson.
+msgid "&Start"
+msgstr "&Empezar"
+
+#. Translators: button that closes the list of lessons.
+msgid "&Close"
+msgstr "&Cerrar"
+
+#. Translators: said at the end of a lesson explanation.
+msgid "This lesson has {count} exercise."
+msgid_plural "This lesson has {count} exercises."
+msgstr[0] "Esta lección tiene {count} ejercicio."
+msgstr[1] "Esta lección tiene {count} ejercicios."
+
+#. Translators: said when a lesson is resumed, as in "You will continue from exercise 3."
+msgid "You will continue from exercise {number}."
+msgstr "Seguirás desde el ejercicio {number}."
+
+#. Translators: button that goes back to the list of lessons.
+msgid "&Back"
+msgstr "&Volver"
+
+#. Translators: said when a lesson is finished, as in "You finished lesson 1! You have 5 of 6 stars."
+msgid "You finished lesson {id}! You have {stars} of {total} stars."
+msgstr "¡Terminaste la lección {id}! Tienes {stars} de {total} estrellas."
+
+#. Translators: said at the end of a lesson.
+msgid "Open the menu with the Applications key to go on to the next lesson."
+msgstr "Abre el menú con la tecla Aplicaciones para pasar a la siguiente lección."
+
+#. Translators: label of the choice between a general crossword and the children's themes.
+msgid "&Crossword:"
+msgstr "&Crucigrama:"
+
+#. Translators: an option of the Crossword choice: a crossword for everyone.
+msgid "General"
+msgstr "General"
+
+#. Translators: an option of the Crossword choice, for example "Children's: Animals".
+msgid "Children's: {theme}"
+msgstr "Infantil: {theme}"
+
+#. Translators: label of the crossword size choice.
+msgid "&Size:"
+msgstr "&Tamaño:"
+
+#. Translators: label of the crossword difficulty choice.
+msgid "&Difficulty:"
+msgstr "&Dificultad:"
+
+#. Translators: checkbox of the new crossword dialog.
+msgid "With &help: F7 tells letters and words, and Check says where the mistakes are"
+msgstr "Con &ayudas: F7 dice letras y palabras, y Comprobar dice dónde están los errores"
+
+#. Translators: title of the list of all the clues of the crossword.
+msgid "Clues"
+msgstr "Pistas"
+
+#. Translators: added in the list of clues to a word with all its cells filled.
+msgid "{clue} (complete)"
+msgstr "{clue} (completa)"
+
+#. Translators: label of the list of clues.
+msgid "&Clues:"
+msgstr "&Pistas:"
+
+#. Translators: title of the statistics window.
+msgid "My statistics"
+msgstr "Mis estadísticas"
+
+#. Translators: check box in the settings panel.
+msgid "Play s&ounds (complete words, solved crosswords)"
+msgstr "Reproducir s&onidos (palabras completas, crucigramas resueltos)"
+
+#. Translators: check box in the settings panel.
+msgid "Say which word &crosses each cell"
+msgstr "Decir con qué palabra se &cruza cada casilla"
+
+#. Translators: check box in the settings panel.
+msgid "Say what is &written when entering a word"
+msgstr "Decir lo &escrito al entrar en una palabra"
+
+#. Translators: button in the settings panel.
+msgid "&Delete my progress and statistics..."
+msgstr "&Borrar mi progreso y mis estadísticas..."
+
+#. Translators: asked before deleting the statistics.
+msgid "This deletes your progress in the course, the crosswords you solved, your best times and the days in a row. Unfinished crosswords are kept. It cannot be undone. Delete them?"
+msgstr "Esto borra tu progreso en el curso, los crucigramas que resolviste, tus mejores tiempos y los días seguidos. Los crucigramas a medias se quedan. No se puede deshacer. ¿Borrarlos?"
+
+#. Translators: title of the confirmation to delete the statistics.
+msgid "Delete my progress and statistics"
+msgstr "Borrar mi progreso y mis estadísticas"
+
+#. Translators: reported after deleting the statistics.
+msgid "Your progress and statistics were deleted."
+msgstr "Se borraron tu progreso y tus estadísticas."
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves up, if there is a cell with a letter above"
+msgstr "Sube, si arriba hay una casilla con letra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves down, if there is a cell with a letter below"
+msgstr "Baja, si abajo hay una casilla con letra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves left, if there is a cell with a letter on the left"
+msgstr "Va a la izquierda, si hay una casilla con letra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves right, if there is a cell with a letter on the right"
+msgstr "Va a la derecha, si hay una casilla con letra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves to the first letter of the word"
+msgstr "Va a la primera letra de la palabra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves to the last letter of the word"
+msgstr "Va a la última letra de la palabra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves to the next word"
+msgstr "Va a la palabra siguiente"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Moves to the previous word"
+msgstr "Va a la palabra anterior"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Shows the list of all the clues, to go to a word"
+msgstr "Muestra la lista de todas las pistas, para ir a una palabra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Deletes the letter of the cell or, if it is empty, the one before"
+msgstr "Borra la letra de la casilla o, si está vacía, la anterior"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Deletes the letter of the cell"
+msgstr "Borra la letra de la casilla"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Undoes the last change"
+msgstr "Deshace el último cambio"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Repeats the clue of the word"
+msgstr "Repite la pista de la palabra"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "At a crossing, reports the clue of the other word"
+msgstr "En un cruce, dice la pista de la otra palabra"
+
+#. Translators: said when asking for the crossing word in a cell that is not a crossing.
+msgid "No other word crosses here."
+msgstr "Aquí no se cruza otra palabra."
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Reports the letters of the word, with the empty cells"
+msgstr "Dice las letras de la palabra, con las casillas vacías"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Reads the word as it is written, with the gaps"
+msgstr "Lee la palabra tal como está escrita, con los huecos"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Reads the current cell again"
+msgstr "Vuelve a leer la casilla actual"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Help: tells the letter that goes in the cell, without writing it"
+msgstr "Ayuda: dice la letra que va en la casilla, sin escribirla"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Help: tells the whole word, without writing it"
+msgstr "Ayuda: dice la palabra entera, sin escribirla"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Reports how many words are complete and which are missing"
+msgstr "Dice cuántas palabras están completas y cuáles faltan"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Reports the row and the column of the cell"
+msgstr "Dice la fila y la columna de la casilla"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Opens the menu of the board"
+msgstr "Abre el menú del tablero"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Shows the keyboard shortcuts of the board"
+msgstr "Muestra los atajos de teclado del tablero"
+
+#. Translators: description of a crossword board command in the Input gestures dialog.
+msgid "Closes the board; the crossword is kept to continue it later"
+msgstr "Cierra el tablero; el crucigrama se guarda para continuarlo más tarde"
+
+#. Translators: said when asking for help in a crossword without help.
+msgid "This crossword is without help."
+msgstr "Este crucigrama es sin ayudas."
+
+#. Translators: reported when trying to change a solved crossword.
+msgid "The crossword is solved. To play another one, open the menu and choose New crossword."
+msgstr "El crucigrama está resuelto. Para jugar otro, abre el menú y elige Nuevo crucigrama."
+
+#. Translators: reported when there is nothing to undo.
+msgid "There is nothing to undo."
+msgstr "No hay nada que deshacer."
+
+#. Translators: said after undoing, before the cell that changed.
+msgid "Undone"
+msgstr "Deshecho"
+
+#. Translators: description of a lesson command in the Input gestures dialog.
+msgid "Repeats the instruction of the exercise"
+msgstr "Repite lo que hay que hacer en el ejercicio"
+
+#. Translators: description of a lesson command in the Input gestures dialog.
+msgid "Repeats the explanation of the lesson"
+msgstr "Repite la explicación de la lección"
+
+#. Translators: said when pressing Control+Z in a lesson.
+msgid "In the lessons there is nothing to undo: a letter that does not fit is not written."
+msgstr "En las lecciones no hay nada que deshacer: una letra que no va no se escribe."
+
+#. Translators: title of a lesson, as in "Lesson 1: What is a crossword?".
+msgid "Lesson {id}: {title}"
+msgstr "Lección {id}: {title}"
+
+#. Translators: accessible name of the crossword board.
+msgid "Crossword board"
+msgstr "Tablero del crucigrama"
+
+#. Translators: said when a whole crossword of a lesson continues where it was left.
+msgid "You continue where you left it."
+msgstr "Sigues donde lo dejaste."
+
+#. Translators: before the instruction of an exercise, as in "Exercise 2 of 3."
+msgid "Exercise {number} of {total}."
+msgstr "Ejercicio {number} de {total}."
+
+#. Translators: item of the menu of a lesson.
+msgid "&Next lesson"
+msgstr "&Siguiente lección"
+
+#. Translators: item of the menu of a lesson.
+msgid "&List of lessons..."
+msgstr "&Lista de lecciones..."
+
+#. Translators: item of the menu of a lesson.
+#. Translators: item of the menu of the crossword board.
+msgid "&Keyboard shortcuts"
+msgstr "&Atajos de teclado"
+
+#. Translators: item of the menu of a lesson.
+msgid "&Close the lesson"
+msgstr "&Cerrar la lección"
+
+#. Translators: added to the title of the board window of a crossword without help.
+msgid "without help"
+msgstr "sin ayudas"
+
+#. Translators: title of the board window, as in "MiCrucigramaAccesible - Medium, Normal, 12 words".
+msgid "MiCrucigramaAccesible - {description}"
+msgstr "MiCrucigramaAccesible - {description}"
+
+#. Translators: said when the whole crossword is solved; the time is only informative.
+msgid "Crossword solved! Congratulations! Time: {time}."
+msgstr "¡Crucigrama resuelto! ¡Enhorabuena! Tiempo: {time}."
+
+#. Translators: item of the menu of the crossword board.
+msgid "C&heck"
+msgstr "Co&mprobar"
+
+#. Translators: item of the menu of the crossword board.
+msgid "&Restart"
+msgstr "&Reiniciar"
+
+#. Translators: item of the menu of the crossword board.
+msgid "&Close the board"
+msgstr "&Cerrar el tablero"
+
+#. Translators: asked before restarting the crossword.
+msgid "All the letters you wrote will be deleted. Restart?"
+msgstr "Se borrarán todas las letras que escribiste. ¿Reiniciar?"
+
+#. Translators: title of the confirmation to restart the crossword.
+msgid "Restart"
+msgstr "Reiniciar"
+
+#. Translators: said after restarting the crossword.
+msgid "Crossword restarted."
+msgstr "Crucigrama reiniciado."
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+msgid "Crucigramas accesibles en español para NVDA, para todas las edades.\nResuelve crucigramas casilla a casilla y palabra a palabra: el cursor sigue las palabras, y oyes cada pista y cómo se cruzan. Crucigramas pequeños, medianos y grandes en tres niveles de dificultad, y crucigramas infantiles pequeños de seis temas, todos generados al momento a partir de unas 3.500 palabras con pistas escritas para el juego. Juega con o sin ayudas; aprende con Aprender a jugar, un curso guiado de 14 lecciones pensado también para niñas y niños; resuelve el crucigrama del día; y consulta tus estadísticas."
+msgstr "Crucigramas accesibles en español para NVDA, para todas las edades.\nResuelve crucigramas casilla a casilla y palabra a palabra: el cursor sigue las palabras, y oyes cada pista y cómo se cruzan. Crucigramas pequeños, medianos y grandes en tres niveles de dificultad, y crucigramas infantiles pequeños de seis temas, todos generados al momento a partir de unas 3.500 palabras con pistas escritas para el juego. Juega con o sin ayudas; aprende con Aprender a jugar, un curso guiado de 14 lecciones pensado también para niñas y niños; resuelve el crucigrama del día; y consulta tus estadísticas."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+msgid "Primera versión estable. Crucigramas pequeños, medianos y grandes en tres niveles, e infantiles de seis temas, con un tablero que se recorre por caminitos y dice cómo se cruzan las palabras; con o sin ayudas; el curso Aprender a jugar, de 14 lecciones; el crucigrama del día; y tus estadísticas."
+msgstr "Primera versión estable. Crucigramas pequeños, medianos y grandes en tres niveles, e infantiles de seis temas, con un tablero que se recorre por caminitos y dice cómo se cruzan las palabras; con o sin ayudas; el curso Aprender a jugar, de 14 lecciones; el crucigrama del día; y tus estadísticas."

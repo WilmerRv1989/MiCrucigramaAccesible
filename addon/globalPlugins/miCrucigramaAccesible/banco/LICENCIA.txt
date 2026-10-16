@@ -1,0 +1,32 @@
+Banco de palabras y pistas de MiCrucigramaAccesible
+====================================================
+
+Los archivos de esta carpeta (general.json e infantil.json) son el contenido del juego:
+las palabras de los crucigramas y sus pistas.
+
+Licencia
+--------
+
+Este banco se distribuye con la licencia Creative Commons Atribución-CompartirIgual 4.0
+Internacional (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/deed.es
+
+Se puede copiar, adaptar y compartir, también con fines comerciales, siempre que se cite
+la autoría y que lo que se haga a partir de él se comparta con la misma licencia.
+
+El código del complemento tiene otra licencia, la GNU GPL versión 2 o posterior
+(ver COPYING.txt en el repositorio).
+
+Autoría y créditos
+------------------
+
+- Pistas: escritas por Wilmer Rodríguez Vega para MiCrucigramaAccesible (2026).
+- Selección de palabras y orden de dificultad: a partir de
+  - el Wikcionario en español (https://es.wiktionary.org), CC BY-SA 4.0,
+    volcado del 1 de octubre de 2026: se usó para comprobar que cada palabra existe
+    y qué categoría tiene (sustantivo, verbo...);
+  - FrequencyWords de Hermit Dave (https://github.com/hermitdave/FrequencyWords),
+    lista es_50k de 2018 sacada de subtítulos de OpenSubtitles, CC BY-SA 4.0:
+    se usó para saber qué palabras son más comunes.
+
+Las pistas fuente están en la carpeta banco_fuente del repositorio, y la herramienta que
+prepara este banco en herramientas/preparar_banco.py.

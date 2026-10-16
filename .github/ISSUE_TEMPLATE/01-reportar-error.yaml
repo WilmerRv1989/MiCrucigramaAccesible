@@ -1,0 +1,56 @@
+name: Reportar un error
+description: Algo no funciona, o una pista no está bien
+labels: [error]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar MiCrucigramaAccesible. Cuanto más concreto sea el reporte, antes lo podré corregir.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: ¿Qué pasó?
+      options:
+        - Algo no funciona en el juego
+        - Una pista está mal o no se entiende
+        - Algo de una lección del curso
+        - Otra cosa
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumen
+    attributes:
+      label: Cuéntame qué pasó
+      description: Si es una pista, escribe la palabra y la pista tal como la oíste.
+    validations:
+      required: true
+
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para que vuelva a pasar
+      description: Qué crucigrama o lección tenías abierto y qué teclas pulsaste.
+      placeholder: |
+        1. Nuevo crucigrama, mediano, normal.
+        2. Pulsé F4 y elegí la 3 horizontal.
+        3. ...
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas que pasara
+
+  - type: input
+    id: versiones
+    attributes:
+      label: Versiones de MiCrucigramaAccesible y de NVDA
+      placeholder: MiCrucigramaAccesible 1.0.0, NVDA 2026.2
+
+  - type: textarea
+    id: registro
+    attributes:
+      label: Registro de NVDA (opcional)
+      description: Si hubo un error, adjunta el archivo %TEMP%\nvda.log o pega aquí la parte que menciona MiCrucigramaAccesible.

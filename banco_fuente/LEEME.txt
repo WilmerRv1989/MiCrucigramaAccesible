@@ -1,0 +1,19 @@
+Pistas fuente del banco de MiCrucigramaAccesible
+================================================
+
+Aquí están las pistas tal como se escriben y se revisan, una por línea y separadas por
+tabuladores: palabra, pista, dificultad (facil, normal o dificil), directa (sí o no),
+tema (solo en infantil.tsv) y origen.
+
+- general_01.tsv a general_08.tsv forman el banco general (se juntan en general.json).
+- infantil.tsv tiene los seis temas infantiles: animales, comida, colores, cuerpo, casa y escuela.
+
+Después de cambiar algo, desde la raíz del repositorio:
+
+	uv run python herramientas/preparar_banco.py construir
+
+La herramienta comprueba que ninguna pista contenga su propia palabra, que no haya palabras
+repetidas y que cada palabra tenga el largo de su nivel (fácil de 3 a 7 letras, normal de 3 a 9,
+difícil de 4 a 10), y escribe los JSON del complemento.
+
+Licencia: CC BY-SA 4.0, igual que el banco (ver addon/globalPlugins/miCrucigramaAccesible/banco/LICENCIA.txt).

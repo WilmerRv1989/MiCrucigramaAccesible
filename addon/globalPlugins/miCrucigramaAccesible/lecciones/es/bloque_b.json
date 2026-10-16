@@ -1,0 +1,244 @@
+{
+	"id": "B",
+	"titulo": "Estrategias",
+	"mensaje_final": "¡Terminaste el bloque B! Ya sabes empezar por lo seguro, aprovechar los cruces, fijarte en el largo y en la forma de la pista, descubrir los trucos y salir de un atasco. Ahora, a jugar crucigramas enteros.",
+	"lecciones": [
+		{
+			"id": "6",
+			"titulo": "Empieza por lo seguro",
+			"explicacion": [
+				"En un crucigrama no hace falta ir en orden. Lo mejor es empezar por las pistas que sabes seguro.",
+				"Cada palabra que escribes te regala letras de las palabras que se cruzan con ella. Así, las difíciles se vuelven más fáciles.",
+				"Para ver todas las pistas de un vistazo, pulsa F4."
+			],
+			"ejercicios": [
+				{
+					"id": "6.1",
+					"palabras": [
+						{"palabra": "perro", "pista": "Animal doméstico que ladra", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "erizo", "pista": "Animal pequeño cubierto de púas", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "zorro", "pista": "Animal astuto de cola larga, que en los cuentos engaña a todos", "fila": 4, "columna": 2, "direccion": "horizontal"}
+					],
+					"objetivos": ["perro"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Este crucigrama está vacío. Pulsa F4 y escucha las tres pistas; luego pulsa Escape para volver. Una es muy fácil: la del animal que ladra, la 1 horizontal. Escríbela primero."
+				},
+				{
+					"id": "6.2",
+					"palabras": [
+						{"palabra": "perro", "pista": "Animal doméstico que ladra", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "erizo", "pista": "Animal pequeño cubierto de púas", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "zorro", "pista": "Animal astuto de cola larga, que en los cuentos engaña a todos", "fila": 4, "columna": 2, "direccion": "horizontal"}
+					],
+					"escritas": ["perro"],
+					"objetivos": ["erizo"],
+					"inicio": [1, 2, "vertical"],
+					"instruccion": "Ahora la 2 vertical: animal pequeño cubierto de púas. Su primera letra ya está puesta, porque la escribiste en la 1 horizontal: empieza por E. Escríbela."
+				},
+				{
+					"id": "6.3",
+					"palabras": [
+						{"palabra": "perro", "pista": "Animal doméstico que ladra", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "erizo", "pista": "Animal pequeño cubierto de púas", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "zorro", "pista": "Animal astuto de cola larga, que en los cuentos engaña a todos", "fila": 4, "columna": 2, "direccion": "horizontal"}
+					],
+					"escritas": ["perro", "erizo"],
+					"objetivos": ["zorro"],
+					"inicio": [4, 2, "horizontal"],
+					"instruccion": "Y la última, la 3 horizontal. Gracias al erizo ya tiene su primera letra, la Z. Escucha su pista con F2 y escríbela."
+				}
+			]
+		},
+		{
+			"id": "7",
+			"titulo": "Los cruces regalan letras",
+			"explicacion": [
+				"Cuando una pista es difícil, mira las palabras que se cruzan con ella. Si las resuelves antes, cada una te regala una letra.",
+				"Con unas cuantas letras puestas, muchas veces la palabra difícil sale sola. Mayúsculas+F3 te dice cómo va: las letras que ya tienes y los huecos.",
+				"A veces una horizontal y una vertical empiezan en la misma casilla. Entonces comparten número: por ejemplo, 3 horizontal y 3 vertical."
+			],
+			"ejercicios": [
+				{
+					"id": "7.1",
+					"palabras": [
+						{"palabra": "pera", "pista": "Fruta verde o amarilla con forma de campana", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "oca", "pista": "Ave parecida al ganso; también, un juego de tablero con dados", "fila": 2, "columna": 5, "direccion": "vertical"},
+						{"palabra": "caracol", "pista": "Lleva su casa a cuestas y deja un rastro brillante", "fila": 3, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "casa", "pista": "Edificio donde vive una familia", "fila": 3, "columna": 1, "direccion": "vertical"}
+					],
+					"objetivos": ["pera", "oca", "casa"],
+					"inicio": [1, 3, "vertical"],
+					"instruccion": "La 3 horizontal es larga y su pista es difícil. Antes de pensar en ella, resuelve las tres verticales, que son fáciles: la 1, la 2 y la 3 vertical. Pasa de una a otra con Tab o con F4."
+				},
+				{
+					"id": "7.2",
+					"palabras": [
+						{"palabra": "pera", "pista": "Fruta verde o amarilla con forma de campana", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "oca", "pista": "Ave parecida al ganso; también, un juego de tablero con dados", "fila": 2, "columna": 5, "direccion": "vertical"},
+						{"palabra": "caracol", "pista": "Lleva su casa a cuestas y deja un rastro brillante", "fila": 3, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "casa", "pista": "Edificio donde vive una familia", "fila": 3, "columna": 1, "direccion": "vertical"}
+					],
+					"escritas": ["pera", "oca", "casa"],
+					"objetivos": ["caracol"],
+					"inicio": [3, 1, "horizontal"],
+					"instruccion": "Ahora la 3 horizontal ya tiene tres letras regaladas por las verticales. Pulsa Mayúsculas+F3 para oír cómo va, y F2 para oír su pista: lleva su casa a cuestas. ¿Qué animal es? Escríbelo."
+				}
+			]
+		},
+		{
+			"id": "8",
+			"titulo": "El largo y el patrón",
+			"explicacion": [
+				"Muchas pistas tienen varias respuestas posibles. Para elegir la buena, fíjate en dos cosas.",
+				"El largo: cuántas letras tiene la palabra. Se dice al entrar en ella y al pulsar F2.",
+				"El patrón: las letras que ya están puestas por los cruces. F3 te las dice una a una."
+			],
+			"ejercicios": [
+				{
+					"id": "8.1",
+					"palabras": [
+						{"palabra": "agua", "pista": "Líquido transparente que bebemos", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "hogar", "pista": "Lugar donde vive una familia", "fila": 2, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["agua"],
+					"objetivos": ["hogar"],
+					"inicio": [2, 1, "horizontal"],
+					"instruccion": "La pista de la 2 horizontal es: lugar donde vive una familia. Podría ser casa, piso u hogar. Fíjate en el largo, 5 letras, y en la letra que ya está: pulsa F3. Solo una de las tres encaja. Escríbela."
+				},
+				{
+					"id": "8.2",
+					"palabras": [
+						{"palabra": "celeste", "pista": "Color del cielo de día", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "luna", "pista": "Brilla de noche en el cielo", "fila": 1, "columna": 3, "direccion": "vertical"}
+					],
+					"escritas": ["luna"],
+					"objetivos": ["celeste"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Pista de la 1 horizontal: color del cielo de día. Lo primero que piensas es azul, ¿verdad? Pero tiene 7 letras, y la tercera es una L. Pulsa F3 y piensa en otro nombre para ese azul clarito."
+				}
+			]
+		},
+		{
+			"id": "9",
+			"titulo": "Pistas que dan la forma",
+			"explicacion": [
+				"La forma de la pista te dice cómo es la palabra.",
+				"Si la pista empieza con un verbo, como moverse o cortar, la palabra también es un verbo, y acaba en ar, er o ir.",
+				"Si la pista está en plural, la palabra también: acabará en s. Si habla de una mujer, irá en femenino, muchas veces acabada en a."
+			],
+			"ejercicios": [
+				{
+					"id": "9.1",
+					"palabras": [
+						{"palabra": "nadar", "pista": "Moverse por el agua sin tocar el fondo", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "risa", "pista": "Lo que hacemos cuando algo nos hace gracia", "fila": 1, "columna": 5, "direccion": "vertical"}
+					],
+					"escritas": ["risa"],
+					"objetivos": ["nadar"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "La pista de la 1 horizontal empieza con un verbo: moverse por el agua sin tocar el fondo. La palabra será un verbo acabado en ar, er o ir. Fíjate: la última letra ya es una R. Escríbela."
+				},
+				{
+					"id": "9.2",
+					"palabras": [
+						{"palabra": "azul", "pista": "Color del cielo despejado", "fila": 1, "columna": 5, "direccion": "vertical"},
+						{"palabra": "cerezas", "pista": "Frutas rojas y pequeñas que cuelgan de dos en dos", "fila": 2, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["azul"],
+					"objetivos": ["cerezas"],
+					"inicio": [2, 1, "horizontal"],
+					"instruccion": "Escucha la pista de la 2 horizontal: frutas, en plural. Si la pista está en plural, la palabra también, y acabará en s. Escríbela."
+				},
+				{
+					"id": "9.3",
+					"palabras": [
+						{"palabra": "maestra", "pista": "Mujer que enseña en la escuela", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"escritas": ["sol"],
+					"objetivos": ["maestra"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "La pista de la 1 horizontal habla de una mujer: mujer que enseña en la escuela. La palabra irá en femenino. Escríbela."
+				}
+			]
+		},
+		{
+			"id": "10",
+			"titulo": "Sinónimos y pistas con truco",
+			"explicacion": [
+				"A veces la pista es una sola palabra. Entonces hay que buscar otra que signifique lo mismo: un sinónimo. Por ejemplo, si la pista es empezar, la respuesta puede ser comenzar.",
+				"Otras veces la pista tiene truco: parece que habla de una cosa y habla de otra. Por ejemplo, tiene patas pero no anda: una mesa.",
+				"Si una pista no te encaja, léela otra vez pensando en otro sentido de sus palabras."
+			],
+			"ejercicios": [
+				{
+					"id": "10.1",
+					"palabras": [
+						{"palabra": "alegre", "pista": "Contento", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "gato", "pista": "Animal doméstico que maúlla", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"escritas": ["gato"],
+					"objetivos": ["alegre"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "La pista de la 1 horizontal es una sola palabra: contento. Busca otra que signifique lo mismo, de 6 letras. La cuarta letra ya está: es una G."
+				},
+				{
+					"id": "10.2",
+					"palabras": [
+						{"palabra": "reloj", "pista": "Tiene agujas pero no cose", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"escritas": ["oso"],
+					"objetivos": ["reloj"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Esta pista tiene truco: tiene agujas pero no cose. No pienses en una aguja de coser: piensa en otra cosa que tiene agujas y que miras para saber la hora."
+				},
+				{
+					"id": "10.3",
+					"palabras": [
+						{"palabra": "peine", "pista": "Tiene dientes pero no muerde", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "nube", "pista": "Vapor de agua blanco o gris en el cielo", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"escritas": ["nube"],
+					"objetivos": ["peine"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Otra con truco: tiene dientes pero no muerde. Piensa en algo que usas por la mañana para el pelo."
+				}
+			]
+		},
+		{
+			"id": "11",
+			"titulo": "Cuando te atascas",
+			"explicacion": [
+				"A todo el mundo se le atasca alguna palabra. No pasa nada.",
+				"Primero, déjala y ve a otra con Tab o con F4. Cuando vuelvas, quizá ya tenga letras nuevas de los cruces.",
+				"Si sigue sin salir, pide ayuda: F7 te dice la letra de la casilla donde estás y Mayúsculas+F7 la palabra entera. Las escribes tú.",
+				"En las lecciones, una ayuda cuesta una estrella. En los crucigramas del juego, puedes jugar con ayudas o sin ellas."
+			],
+			"ejercicios": [
+				{
+					"id": "11.1",
+					"palabras": [
+						{"palabra": "brújula", "pista": "Siempre señala el norte", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "jugo", "pista": "Líquido que se saca de la fruta", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"objetivos": ["brújula", "jugo"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "La 1 horizontal tiene una pista con truco: siempre señala el norte. Si no te sale, haz primero la 2 vertical, que es fácil y te regala una letra. Y si aun así no sale, pide una letra con F7 o la palabra con Mayúsculas+F7."
+				},
+				{
+					"id": "11.2",
+					"palabras": [
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "luna", "pista": "Brilla de noche en el cielo", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "rana", "pista": "Animal que salta y croa", "fila": 4, "columna": 2, "direccion": "horizontal"},
+						{"palabra": "ave", "pista": "Animal con plumas y pico", "fila": 4, "columna": 5, "direccion": "vertical"}
+					],
+					"objetivos": ["sol", "luna", "rana", "ave"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Ahora un crucigrama entero, pequeño y vacío. Usa todo lo que aprendiste: empieza por lo seguro, aprovecha los cruces, y si te atascas, salta a otra palabra o pide ayuda. F5 te dice cuáles faltan."
+				}
+			]
+		}
+	]
+}

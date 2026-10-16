@@ -1,0 +1,404 @@
+{
+	"id": "C",
+	"titulo": "A jugar",
+	"mensaje_final": "¡Terminaste el curso! Ya sabes resolver crucigramas de verdad. Ahora te esperan los del menú Nuevo crucigrama, uno nuevo cada día en Crucigrama del día, y tus estadísticas para ver cómo mejoras.",
+	"lecciones": [
+		{
+			"id": "12",
+			"titulo": "Tu primer crucigrama",
+			"explicacion": [
+				"Ha llegado el momento: vas a resolver crucigramas enteros, como los del juego.",
+				"Empezamos con dos pequeños, de animales y de comida, con 6 palabras cada uno.",
+				"Recuerda lo que aprendiste: empieza por lo seguro, aprovecha los cruces y, si te atascas, salta a otra palabra. F5 te dice cuáles faltan.",
+				"En los crucigramas enteros, las estrellas dependen de cuántas ayudas pidas: con una o ninguna, 3 estrellas; de 2 a 4, 2 estrellas; con 5 o más, 1.",
+				"Si cierras la lección a medias, al volver sigues donde lo dejaste."
+			],
+			"ejercicios": [
+				{
+					"id": "12.1",
+					"generar": {
+						"tema": "animales",
+						"tamano": "pequeno",
+						"dificultad": "facil",
+						"semilla": 12
+					},
+					"palabras": [
+						{
+							"palabra": "foca",
+							"pista": "Aplaude con las aletas",
+							"fila": 1,
+							"columna": 2,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "loro",
+							"pista": "Pájaro de colores que repite lo que dices",
+							"fila": 1,
+							"columna": 4,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "oso",
+							"pista": "Grande y peludo, duerme todo el invierno",
+							"fila": 2,
+							"columna": 2,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "pato",
+							"pista": "Hace cuac y nada en el estanque",
+							"fila": 4,
+							"columna": 1,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "pulpo",
+							"pista": "Tiene ocho brazos",
+							"fila": 4,
+							"columna": 1,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "lobo",
+							"pista": "Aúlla a la luna",
+							"fila": 6,
+							"columna": 1,
+							"direccion": "horizontal"
+						}
+					],
+					"objetivos": [
+						"foca",
+						"loro",
+						"oso",
+						"pato",
+						"pulpo",
+						"lobo"
+					],
+					"inicio": [
+						1,
+						2,
+						"vertical"
+					],
+					"instruccion": "Un crucigrama de animales, con 6 palabras. Resuélvelo entero. Pulsa F4 para ver todas las pistas."
+				},
+				{
+					"id": "12.2",
+					"generar": {
+						"tema": "comida",
+						"tamano": "pequeno",
+						"dificultad": "facil",
+						"semilla": 12
+					},
+					"palabras": [
+						{
+							"palabra": "tarta",
+							"pista": "Lleva velas en los cumpleaños",
+							"fila": 1,
+							"columna": 9,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "pizza",
+							"pista": "Masa redonda con tomate y queso",
+							"fila": 2,
+							"columna": 5,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "pan",
+							"pista": "Se compra cada mañana y va en el bocadillo",
+							"fila": 2,
+							"columna": 5,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "zumo",
+							"pista": "Bebida que se hace exprimiendo fruta",
+							"fila": 2,
+							"columna": 7,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "limón",
+							"pista": "Fruta amarilla muy ácida",
+							"fila": 4,
+							"columna": 1,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "sopa",
+							"pista": "Se toma calentita con cuchara",
+							"fila": 5,
+							"columna": 6,
+							"direccion": "horizontal"
+						}
+					],
+					"objetivos": [
+						"tarta",
+						"pizza",
+						"pan",
+						"zumo",
+						"limón",
+						"sopa"
+					],
+					"inicio": [
+						1,
+						9,
+						"vertical"
+					],
+					"instruccion": "Ahora uno de comida, con 6 palabras. Resuélvelo entero."
+				}
+			]
+		},
+		{
+			"id": "13",
+			"titulo": "Un mediano fácil",
+			"explicacion": [
+				"Ahora un crucigrama mediano, de 12 palabras, con palabras muy comunes y pistas directas.",
+				"Es más largo: tómate tu tiempo. Con Tab vas de palabra en palabra y con F5 sabes cuántas te quedan.",
+				"Si lo dejas a medias, se guarda."
+			],
+			"ejercicios": [
+				{
+					"id": "13.1",
+					"generar": {
+						"tamano": "mediano",
+						"dificultad": "facil",
+						"semilla": 13
+					},
+					"palabras": [
+						{
+							"palabra": "vela",
+							"pista": "Cilindro de cera con mecha que da luz",
+							"fila": 1,
+							"columna": 12,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "enviar",
+							"pista": "Mandar algo a alguien",
+							"fila": 2,
+							"columna": 2,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "nivel",
+							"pista": "Altura o grado de algo",
+							"fila": 2,
+							"columna": 9,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "ver",
+							"pista": "Percibir con los ojos",
+							"fila": 3,
+							"columna": 6,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "tarta",
+							"pista": "Pastel grande, como el de cumpleaños",
+							"fila": 3,
+							"columna": 8,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "animal",
+							"pista": "Ser vivo que se mueve por sí mismo, como el perro",
+							"fila": 4,
+							"columna": 8,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "igual",
+							"pista": "Que no se diferencia en nada de otro",
+							"fila": 4,
+							"columna": 10,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "ley",
+							"pista": "Norma que dicta un gobierno",
+							"fila": 4,
+							"columna": 13,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "tirar",
+							"pista": "Lanzar algo; también, echar a la basura",
+							"fila": 5,
+							"columna": 4,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "tos",
+							"pista": "Se tiene con el resfriado",
+							"fila": 5,
+							"columna": 4,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "mago",
+							"pista": "Persona que hace trucos de magia",
+							"fila": 6,
+							"columna": 1,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "tapa",
+							"pista": "Pieza que cierra un recipiente",
+							"fila": 7,
+							"columna": 7,
+							"direccion": "horizontal"
+						}
+					],
+					"objetivos": [
+						"vela",
+						"enviar",
+						"nivel",
+						"ver",
+						"tarta",
+						"animal",
+						"igual",
+						"ley",
+						"tirar",
+						"tos",
+						"mago",
+						"tapa"
+					],
+					"inicio": [
+						1,
+						12,
+						"vertical"
+					],
+					"instruccion": "Un crucigrama mediano y fácil, con 12 palabras. Resuélvelo entero, a tu ritmo."
+				}
+			]
+		},
+		{
+			"id": "14",
+			"titulo": "Un mediano normal",
+			"explicacion": [
+				"El último reto del curso: un crucigrama mediano de dificultad normal.",
+				"Algunas pistas son un sinónimo con una pequeña ayuda, y hay menos cruces que en el fácil.",
+				"Usa todas las estrategias: lo seguro primero, los cruces, el largo y el patrón, la forma de la pista. Y si hace falta, pide ayuda."
+			],
+			"ejercicios": [
+				{
+					"id": "14.1",
+					"generar": {
+						"tamano": "mediano",
+						"dificultad": "normal",
+						"semilla": 14
+					},
+					"palabras": [
+						{
+							"palabra": "legado",
+							"pista": "Herencia que se deja",
+							"fila": 1,
+							"columna": 4,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "plazo",
+							"pista": "Tiempo que se da para hacer algo",
+							"fila": 1,
+							"columna": 9,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "pasto",
+							"pista": "Hierba para el ganado",
+							"fila": 1,
+							"columna": 9,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "autógrafo",
+							"pista": "Firma de un famoso",
+							"fila": 1,
+							"columna": 11,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "ocupar",
+							"pista": "Llenar un espacio",
+							"fila": 1,
+							"columna": 13,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "lectura",
+							"pista": "Lo que hacemos con un libro",
+							"fila": 2,
+							"columna": 3,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "cuervo",
+							"pista": "Pájaro negro que grazna",
+							"fila": 3,
+							"columna": 2,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "verdadero",
+							"pista": "Cierto, real",
+							"fila": 5,
+							"columna": 1,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "década",
+							"pista": "Diez años seguidos",
+							"fila": 5,
+							"columna": 6,
+							"direccion": "vertical"
+						},
+						{
+							"palabra": "yoga",
+							"pista": "Ejercicios de respiración y posturas",
+							"fila": 7,
+							"columna": 8,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "operar",
+							"pista": "Intervenir a un enfermo en el quirófano",
+							"fila": 8,
+							"columna": 2,
+							"direccion": "horizontal"
+						},
+						{
+							"palabra": "cobrar",
+							"pista": "Recibir dinero por un trabajo",
+							"fila": 10,
+							"columna": 2,
+							"direccion": "horizontal"
+						}
+					],
+					"objetivos": [
+						"legado",
+						"plazo",
+						"pasto",
+						"autógrafo",
+						"ocupar",
+						"lectura",
+						"cuervo",
+						"verdadero",
+						"década",
+						"yoga",
+						"operar",
+						"cobrar"
+					],
+					"inicio": [
+						1,
+						4,
+						"vertical"
+					],
+					"instruccion": "Un crucigrama mediano de dificultad normal, con 12 palabras. Resuélvelo entero."
+				}
+			]
+		}
+	]
+}

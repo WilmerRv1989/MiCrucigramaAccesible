@@ -1,0 +1,238 @@
+{
+	"id": "A",
+	"titulo": "Conocer el crucigrama",
+	"mensaje_final": "¡Terminaste el bloque A! Ya sabes cómo es un crucigrama, cómo moverte por sus caminitos, escribir, borrar, saltar entre palabras y escuchar el tablero. Ahora vienen las estrategias para resolverlos.",
+	"lecciones": [
+		{
+			"id": "1",
+			"titulo": "¿Qué es un crucigrama?",
+			"explicacion": [
+				"Un crucigrama es un juego de palabras que se cruzan. Cada palabra tiene una pista que te ayuda a adivinarla.",
+				"Hay palabras horizontales, que se leen de izquierda a derecha, y palabras verticales, que se leen de arriba abajo.",
+				"Cada palabra tiene un número, que va en su primera letra. Por eso se llaman, por ejemplo, 1 horizontal o 2 vertical.",
+				"Cuando una palabra horizontal y una vertical comparten una letra, eso es un cruce. Los cruces son muy útiles: cada letra que pones en una palabra también es de la otra.",
+				"Para escribir, ve a la casilla con las flechas y pulsa la letra. Si te equivocas, no pasa nada: la letra no se escribe y te repito la pista.",
+				"F9 repite lo que tienes que hacer en cada ejercicio, y Mayúsculas+F9 repite esta explicación."
+			],
+			"ejercicios": [
+				{
+					"id": "1.1",
+					"palabras": [
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 2, "direccion": "vertical"}
+					],
+					"escritas": ["sol"],
+					"objetivos": ["oso"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Este crucigrama tiene dos palabras. Estás en la 1 horizontal, que ya está escrita: sol. Pulsa flecha derecha para ir a la O: es un cruce con la 2 vertical. Luego baja con flecha abajo y escribe las letras que faltan de la 2 vertical."
+				},
+				{
+					"id": "1.2",
+					"palabras": [
+						{"palabra": "mar", "pista": "Gran masa de agua salada", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "pan", "pista": "Alimento de harina cocida en el horno", "fila": 2, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["mar"],
+					"objetivos": ["pan"],
+					"inicio": [1, 2, "vertical"],
+					"instruccion": "Ahora la vertical ya está escrita: la 1 vertical, mar. Baja hasta la A, que es un cruce con la 2 horizontal. Desde ahí ve a la izquierda y escribe la 2 horizontal de principio a fin. La A ya está: puedes volver a escribirla o saltarla con flecha derecha."
+				}
+			]
+		},
+		{
+			"id": "2",
+			"titulo": "Caminitos",
+			"explicacion": [
+				"En el tablero solo puedes pisar las casillas que tienen letra. Te mueves por caminitos.",
+				"Izquierda y derecha te llevan por una palabra horizontal. Arriba y abajo, por una vertical.",
+				"Si por ahí no hay ninguna casilla con letra, suena un choque y te quedas donde estás. El choque no es un error: solo te dice que por ese lado no hay camino.",
+				"En cada casilla oyes su letra, o vacía, y en qué letra de la palabra estás. En un cruce oyes también con qué palabra se cruza: por ahí puedes cambiar de camino.",
+				"Con Espacio vuelves a oír la casilla donde estás."
+			],
+			"ejercicios": [
+				{
+					"id": "2.1",
+					"palabras": [
+						{"palabra": "vaca", "pista": "Hace mu y nos da la leche", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "mono", "pista": "Trepa a los árboles y come plátanos", "fila": 1, "columna": 4, "direccion": "vertical"},
+						{"palabra": "pato", "pista": "Hace cuac y nada en el estanque", "fila": 2, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "ratón", "pista": "Pequeñito, chilla y le gusta el queso", "fila": 4, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "tigre", "pista": "Gato gigante con rayas", "fila": 4, "columna": 3, "direccion": "vertical"},
+						{"palabra": "abeja", "pista": "Zumba entre las flores y hace miel", "fila": 8, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["vaca", "mono", "pato", "ratón", "abeja"],
+					"letras": [[5, 3, "I"], [7, 3, "R"]],
+					"casillas": [[6, 3]],
+					"inicio": [1, 2, "vertical"],
+					"instruccion": "A la 5 vertical, la del tigre, le falta una letra. Estás arriba de la 1 vertical. Baja por ella hasta su última letra: es un cruce con la 4 horizontal. Ve una casilla a la derecha: ahí empieza la 5 vertical. Baja hasta la casilla vacía y escribe la letra que falta. Si oyes el choque, prueba por otro lado."
+				},
+				{
+					"id": "2.2",
+					"palabras": [
+						{"palabra": "vaca", "pista": "Hace mu y nos da la leche", "fila": 1, "columna": 2, "direccion": "vertical"},
+						{"palabra": "mono", "pista": "Trepa a los árboles y come plátanos", "fila": 1, "columna": 4, "direccion": "vertical"},
+						{"palabra": "pato", "pista": "Hace cuac y nada en el estanque", "fila": 2, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "ratón", "pista": "Pequeñito, chilla y le gusta el queso", "fila": 4, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "tigre", "pista": "Gato gigante con rayas", "fila": 4, "columna": 3, "direccion": "vertical"},
+						{"palabra": "abeja", "pista": "Zumba entre las flores y hace miel", "fila": 8, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["vaca", "mono", "pato", "ratón", "tigre"],
+					"letras": [[8, 1, "A"], [8, 2, "B"], [8, 5, "A"]],
+					"casillas": [[8, 4]],
+					"inicio": [1, 4, "vertical"],
+					"instruccion": "Ahora falta una letra en la 6 horizontal, la de la abeja, abajo del todo. Estás arriba de la 2 vertical. Busca el camino: baja por la 2 vertical hasta el cruce con la 4 horizontal, ve a la izquierda hasta donde empieza la 5 vertical, baja por ella hasta el final, que es un cruce con la 6 horizontal, y ve a la derecha hasta la casilla vacía."
+				}
+			]
+		},
+		{
+			"id": "3",
+			"titulo": "Escribir y borrar",
+			"explicacion": [
+				"Cuando escribes una letra, el cursor avanza solo a la siguiente casilla de la palabra. En la última letra se queda.",
+				"La palabra que sigue el cursor es la de la última flecha que usaste: si llegaste bajando, al escribir sigues bajando.",
+				"Para borrar tienes dos teclas. Suprimir borra la letra de la casilla donde estás, sin moverte. Retroceso borra la letra de la casilla; si está vacía, retrocede una y borra la anterior.",
+				"Las tildes no cuentan: puedes escribir la A o la Á. La Ñ sí es una letra propia."
+			],
+			"ejercicios": [
+				{
+					"id": "3.1",
+					"palabras": [
+						{"palabra": "gato", "pista": "Animal doméstico que maúlla", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 4, "direccion": "vertical"}
+					],
+					"escritas": ["oso"],
+					"objetivos": ["gato"],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Estás al principio de la 1 horizontal. Su pista es: animal doméstico que maúlla. Escríbela letra a letra: el cursor avanza solo. La última letra ya está puesta, porque es de la 2 vertical."
+				},
+				{
+					"id": "3.2",
+					"palabras": [
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "casa", "pista": "Edificio donde vive una familia", "fila": 2, "columna": 1, "direccion": "horizontal"}
+					],
+					"letras": [[1, 3, "O"], [3, 3, "O"], [2, 1, "C"], [2, 2, "A"], [2, 3, "Z"], [2, 4, "A"]],
+					"casillas": [[2, 3]],
+					"inicio": [2, 1, "horizontal"],
+					"instruccion": "Alguien escribió caza en la 2 horizontal, pero su pista dice: edificio donde vive una familia. Además, la 1 vertical, la del oso, pasa por la letra equivocada. Ve a la tercera letra de la 2 horizontal, bórrala con Suprimir y escribe la buena."
+				},
+				{
+					"id": "3.3",
+					"palabras": [
+						{"palabra": "mesa", "pista": "Mueble con patas para comer o escribir", "fila": 1, "columna": 1, "direccion": "vertical"},
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 3, "columna": 1, "direccion": "horizontal"}
+					],
+					"escritas": ["sol"],
+					"objetivos": ["mesa"],
+					"inicio": [1, 1, "vertical"],
+					"instruccion": "Ahora una palabra vertical. Estás arriba de la 1 vertical: mueble con patas para comer o escribir. Escríbela: como vas en vertical, el cursor baja solo al escribir."
+				}
+			]
+		},
+		{
+			"id": "4",
+			"titulo": "Saltar entre palabras",
+			"explicacion": [
+				"En un crucigrama grande no hace falta recorrer todo el tablero con las flechas. Hay atajos.",
+				"Tab te lleva a la primera letra de la palabra siguiente, por número. Mayúsculas+Tab, a la anterior.",
+				"Inicio y Fin te llevan a la primera y a la última letra de la palabra donde estás.",
+				"F4 abre la lista de todas las pistas. Eliges una con las flechas, pulsas Intro y vas a su palabra.",
+				"Al entrar en una palabra oyes su número, su largo y su pista, y lo que ya tiene escrito."
+			],
+			"ejercicios": [
+				{
+					"id": "4.1",
+					"palabras": [
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "luna", "pista": "Brilla de noche en el cielo", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "rana", "pista": "Animal que salta y croa", "fila": 4, "columna": 2, "direccion": "horizontal"},
+						{"palabra": "ave", "pista": "Animal con plumas y pico", "fila": 4, "columna": 5, "direccion": "vertical"}
+					],
+					"escritas": ["sol", "luna", "rana"],
+					"letras": [[5, 5, "V"]],
+					"casillas": [[6, 5]],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "A la 4 vertical le falta su última letra. Pulsa Tab varias veces para saltar de palabra en palabra hasta la 4 vertical. Luego pulsa Fin para ir a su última letra y escríbela."
+				},
+				{
+					"id": "4.2",
+					"palabras": [
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "luna", "pista": "Brilla de noche en el cielo", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "rana", "pista": "Animal que salta y croa", "fila": 4, "columna": 2, "direccion": "horizontal"},
+						{"palabra": "ave", "pista": "Animal con plumas y pico", "fila": 4, "columna": 5, "direccion": "vertical"}
+					],
+					"escritas": ["sol", "rana", "ave"],
+					"letras": [[3, 3, "N"]],
+					"casillas": [[2, 3]],
+					"inicio": [6, 5, "vertical"],
+					"instruccion": "Ahora falta una letra en la 2 vertical. Pulsa F4 para abrir la lista de pistas, elige la 2 vertical con las flechas y pulsa Intro. Luego busca la casilla vacía y escribe la letra que falta."
+				},
+				{
+					"id": "4.3",
+					"palabras": [
+						{"palabra": "sol", "pista": "Estrella que nos da luz y calor", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "luna", "pista": "Brilla de noche en el cielo", "fila": 1, "columna": 3, "direccion": "vertical"},
+						{"palabra": "rana", "pista": "Animal que salta y croa", "fila": 4, "columna": 2, "direccion": "horizontal"},
+						{"palabra": "ave", "pista": "Animal con plumas y pico", "fila": 4, "columna": 5, "direccion": "vertical"}
+					],
+					"escritas": ["sol", "luna", "ave"],
+					"letras": [[4, 4, "N"]],
+					"casillas": [[4, 2]],
+					"inicio": [6, 5, "vertical"],
+					"instruccion": "Estás al final de la 4 vertical. A la 3 horizontal le falta su primera letra. Pulsa Mayúsculas+Tab para volver a la palabra anterior: llegarás a su primera letra. Escríbela."
+				}
+			]
+		},
+		{
+			"id": "5",
+			"titulo": "Escuchar el tablero",
+			"explicacion": [
+				"Hay teclas para oír el tablero sin moverte.",
+				"F2 repite la pista de la palabra que sigues. En un cruce, Mayúsculas+F2 dice la pista de la otra palabra.",
+				"F3 dice las letras de la palabra una a una, con las casillas vacías. Mayúsculas+F3 la lee como palabra, con los huecos.",
+				"F5 dice cuántas palabras están completas y cuáles faltan. Espacio repite la casilla donde estás, y F6 dice su fila y su columna."
+			],
+			"ejercicios": [
+				{
+					"id": "5.1",
+					"palabras": [
+						{"palabra": "gato", "pista": "Animal doméstico que maúlla", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 4, "direccion": "vertical"},
+						{"palabra": "sal", "pista": "Se echa a la comida para darle sabor", "fila": 2, "columna": 4, "direccion": "horizontal"}
+					],
+					"escritas": ["oso", "sal"],
+					"letras": [[1, 1, "G"], [1, 2, "A"]],
+					"casillas": [[1, 3]],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "En la 1 horizontal falta una letra. Pulsa F3 para oír sus letras una a una, y Mayúsculas+F3 para oírla como palabra con el hueco. Después ve a la casilla vacía y escribe la letra que falta."
+				},
+				{
+					"id": "5.2",
+					"palabras": [
+						{"palabra": "gato", "pista": "Animal doméstico que maúlla", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 4, "direccion": "vertical"},
+						{"palabra": "sal", "pista": "Se echa a la comida para darle sabor", "fila": 2, "columna": 4, "direccion": "horizontal"}
+					],
+					"escritas": ["gato", "oso"],
+					"letras": [[2, 6, "L"]],
+					"casillas": [[2, 5]],
+					"inicio": [2, 4, "vertical"],
+					"instruccion": "Estás en un cruce. Pulsa F2 para oír la pista de la palabra que sigues, y Mayúsculas+F2 para oír la de la otra. A la 3 horizontal le falta una letra: ve a la derecha y escríbela."
+				},
+				{
+					"id": "5.3",
+					"palabras": [
+						{"palabra": "gato", "pista": "Animal doméstico que maúlla", "fila": 1, "columna": 1, "direccion": "horizontal"},
+						{"palabra": "oso", "pista": "Animal grande y peludo al que le gusta la miel", "fila": 1, "columna": 4, "direccion": "vertical"},
+						{"palabra": "sal", "pista": "Se echa a la comida para darle sabor", "fila": 2, "columna": 4, "direccion": "horizontal"}
+					],
+					"escritas": ["gato", "sal"],
+					"casillas": [[3, 4]],
+					"inicio": [1, 1, "horizontal"],
+					"instruccion": "Una palabra está sin completar. Pulsa F5 para saber cuál es, ve a ella y escribe la letra que falta. Con Espacio puedes volver a oír la casilla donde estás."
+				}
+			]
+		}
+	]
+}
